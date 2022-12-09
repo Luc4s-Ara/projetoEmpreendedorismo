@@ -1,0 +1,332 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #40332b;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    background-color: #872b24;
+    align-items: center;
+}
+
+nav {
+    position: absolute;
+    top: 85px;
+    left: 400px
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+    margin-right: 150px;
+    border-right: 2px solid #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+section div {
+    margin-bottom: 15px;
+}
+
+h1#logo img {
+    width: 200px;
+}
+
+div h2.secao {
+    text-align: center;
+    align-self: center;
+}
+
+h2.secao {
+    padding: 20px;
+    border: 2px solid #872b24;
+    border-style: outset;
+    background-color: #872b24;
+}
+ 
+p span.dia {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.flex-container .col {
+    width: 400px;
+    margin-right: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 870px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+figure img {
+    border-radius: 26px;
+    width: 850px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #872b24;
+    justify-content: space-around;
+}
+
+footer div {
+    margin: 10px 50px 0px 50px;
+    text-align: center;
+    align-items: center;
+    padding: 7px;
+}
+
+div#horario p {
+    text-align: justify;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+footer div img {
+    width: 150px;
+}
+
+/* Album de fotos */
+
+ul#album-fotos {
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #000000;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+}
+
+ul#album-fotos li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000000;
+    font-weight: bold;
+    font-size: 9pt;
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
+}
+
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span {
+    opacity: 1;
+}
+
+ul#album-fotos li#foto-01 {
+    background: url(/img/prato1.jpg) no-repeat;
+}
+
+ul#album-fotos li#foto-01 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-02 {
+    background: url(/img/prato2.jpg) no-repeat;
+}
+
+ul#album-fotos li#foto-02 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-03 {
+    background: url(/img/prato3.jpg) no-repeat;
+}
+
+ul#album-fotos li#foto-03 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-04 {
+    background: url(/img/prato4.jpeg) no-repeat;
+}
+
+ul#album-fotos li#foto-04 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-05 {
+    background: url(/img/prato5.jpeg) no-repeat;
+}
+
+ul#album-fotos li#foto-05 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-06 {
+    background: url(/img/prato6.jpeg) no-repeat;
+}
+
+ul#album-fotos li#foto-06 {
+    background-size: 200px 200px;
+}
+
+/* bebidas */
+
+ul#album-fotos li#foto-bebida-01 {
+    background: url(/img/bebida1.jpg) no-repeat;
+}
+
+ul#album-fotos li#foto-bebida-01 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-bebida-02 {
+    background: url(/img/bebida2.jpg) no-repeat;
+}
+
+ul#album-fotos li#foto-bebida-02 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-bebida-03 {
+    background: url(/img/bebida3.jpg) no-repeat;
+}
+
+ul#album-fotos li#foto-bebida-03 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-bebida-04 {
+    background: url(/img/bebida4.jpeg) no-repeat;
+}
+
+ul#album-fotos li#foto-bebida-04 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-bebida-05 {
+    background: url(/img/bebida5.jpeg) no-repeat;
+}
+
+ul#album-fotos li#foto-bebida-05 {
+    background-size: 200px 200px;
+}
+
+/* sobremesas */
+
+ul#album-fotos li#foto-sobremesa-01 {
+    background: url(/img/sobre1.jpg) no-repeat;
+}
+
+ul#album-fotos li#foto-sobremesa-01 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-sobremesa-02 {
+    background: url(/img/sobre2.jpg) no-repeat;
+}
+
+ul#album-fotos li#foto-sobremesa-02 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-sobremesa-03 {
+    background: url(/img/sobre3.jpg) no-repeat;
+}
+
+ul#album-fotos li#foto-sobremesa-03 {
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-sobremesa-04 {
+    background: url(/img/sobre4.jpg) no-repeat;
+}
+
+ul#album-fotos li#foto-sobremesa-04 {
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto-sobremesa-05 {
+    background: url(/img/sobre5.jpeg) no-repeat;
+}
+
+ul#album-fotos li#foto-sobremesa-05 {
+    background-size: 200px 200px;
+}
+
+
+
+
+/* formulario */
+
+
+form {
+    width: 380px;
+}
+
+form input, form textarea {
+    width: 100%;
+    border: 1px solid #872b24;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 20px;
+    border: 2px solid #872b24;
+    background-color: #872b24;
+}
+
+
+span#botao {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+button span:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+div#local {
+    text-align: center;
+}
+
+div#local figure {
+    margin-top: 20px;
+}
+
+div#local p {
+    font-weight: bold;
+    line-height: 25px;
+}
